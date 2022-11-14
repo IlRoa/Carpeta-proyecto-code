@@ -2,7 +2,7 @@
 /* Footer styles */
 .footer{
     background-color: rgb(48, 46, 46);
-    height: 120px;
+    height: 125px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -13,21 +13,29 @@
     text-align: center;
     border-right: 2px solid grey;
     line-height: 120px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
 }
 .footer > .for-education{
     width: 25%;
     text-align: center;
     border-right: 2px solid grey;
     line-height: 120px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
 }
 .footer > .for-privacy{
     width: 25%;
     text-align: center;
     border-right: 2px solid grey;
     line-height: 120px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey; 
 }
 .footer > .for-writting{
     width: 25%;
     text-align: center;
-
+    line-height: 120px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
 }
