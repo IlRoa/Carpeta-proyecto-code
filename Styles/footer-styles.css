@@ -1,0 +1,33 @@
+
+/* Footer styles */
+.footer{
+    background-color: rgb(48, 46, 46);
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.7em;
+}
+.footer > .for-teams{
+    width: 25%;
+    text-align: center;
+    border-right: 2px solid grey;
+    line-height: 120px;
+}
+.footer > .for-education{
+    width: 25%;
+    text-align: center;
+    border-right: 2px solid grey;
+    line-height: 120px;
+}
+.footer > .for-privacy{
+    width: 25%;
+    text-align: center;
+    border-right: 2px solid grey;
+    line-height: 120px;
+}
+.footer > .for-writting{
+    width: 25%;
+    text-align: center;
+
+}

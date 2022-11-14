@@ -1,0 +1,21 @@
+/* Center column styles */
+
+
+.navigation-wrapper > .center-column > .links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+    
+
+}
+.navigation-wrapper > .center-column > .links-wrapper a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7em;
+}
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link-spark a{
+    font-size: 1.3em;
+    color: grey;
+    padding-left: 30px;
+}

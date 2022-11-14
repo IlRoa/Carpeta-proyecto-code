@@ -1,0 +1,65 @@
+/* Content-wrapper styles */
+
+.page-container{
+    
+    padding-top: 100px;
+    height: 620px;
+    background-image: linear-gradient(to right, rgb(88, 86, 86), black);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.page-container > .content-wrapper p{
+    width: 1000px;
+    padding-left: 80px;
+    font-size: 3em;
+
+}
+.bottom-buttons{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.bottom-buttons > .signup-free-button{
+    padding: 17px ;
+    background-color: rgb(75, 204, 75);
+    width: 200px;
+    font-size: 1.5em;
+    margin-left: 80px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.bottom-buttons > .signup-free-button a{
+    text-decoration: none;
+    color: black;
+}
+.bottom-buttons > .learn-more-button{
+    padding: 17px;
+    background-color: black ;
+    color: white;
+    width: 150px;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 2px;
+}
+.bottom-buttons > .learn-more-button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.page-container > .content-right-side img{
+    height: 500px;
+}
+
+.page-container > .content-right-side {
+    font-size: 1.5em;
+}
+
+.page-container > .content-right-side a{
+    color:aqua;
+    text-decoration: none;
+}

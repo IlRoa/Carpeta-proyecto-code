@@ -1,0 +1,9 @@
+/* Left column styles */
+
+
+.navigation-wrapper > .left-column img{
+    width: 216px;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 40px;
+}
